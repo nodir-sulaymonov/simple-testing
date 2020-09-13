@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_blog{
+    max-height: calc(100vh - 150px);
+}
+.left__side{
+    box-shadow: 0 0 10px rgba(125, 118, 118, 0.4);
+}
+.right__side{
+    box-shadow: 0 0 10px rgba(184, 181, 181, 0.5);
+}
+.ul_list{
+    list-style-type: none;
+}
+.ul_list li{
+    margin: 14px 0;
+    cursor: pointer;
+}
+.form-block{
+    width: 500px;
+    margin-top: 40px;
+}
